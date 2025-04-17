@@ -26,8 +26,11 @@ const Budget=()=>{
 
         <h1>Items you can buy are in green Color</h1>
         <table>
+            <thead>
             <th>name</th>
             <th>price</th>
+            </thead>
+            
         <tbody>
             {
                 budgetObj.map((value)=>{
